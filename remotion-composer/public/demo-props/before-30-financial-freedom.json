@@ -1,0 +1,100 @@
+{
+  "theme": "clean-professional",
+  "cuts": [
+    {
+      "id": "hook",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 0,
+      "out_seconds": 4,
+      "text": "Do THIS Before 30",
+      "subtitle": "The financial freedom checklist",
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "tip1-emergency-fund",
+      "source": "",
+      "type": "callout",
+      "in_seconds": 4,
+      "out_seconds": 9,
+      "callout_type": "tip",
+      "title": "1. Build Your Safety Net",
+      "text": "Save 3-6 months of expenses in a high-yield savings account before investing a dollar.",
+      "backgroundColor": "#F9FAFB"
+    },
+    {
+      "id": "tip2-save-rate",
+      "source": "",
+      "type": "stat_card",
+      "in_seconds": 9,
+      "out_seconds": 14,
+      "stat": "20%",
+      "subtitle": "Automate saving at least 20% of every paycheck",
+      "accentColor": "#F59E0B",
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "tip3-start-early",
+      "source": "",
+      "type": "bar_chart",
+      "in_seconds": 14,
+      "out_seconds": 20,
+      "title": "Illustrative: $300/mo at 8% avg return by 65",
+      "chartData": [
+        { "label": "Start at 25", "value": 1000000 },
+        { "label": "Start at 35", "value": 440000 }
+      ],
+      "chartColors": ["#10B981", "#F59E0B"],
+      "showGrid": true,
+      "showValues": true,
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "tip4-checklist",
+      "source": "",
+      "type": "kpi_grid",
+      "in_seconds": 20,
+      "out_seconds": 26,
+      "title": "Before You Turn 30",
+      "columns": 4,
+      "chartData": [
+        { "label": "Emergency Fund", "value": 6, "suffix": " mo" },
+        { "label": "Savings Rate", "value": 20, "suffix": "%" },
+        { "label": "High-Interest Debt", "value": 0, "prefix": "$" },
+        { "label": "Net Worth Goal", "value": 1, "suffix": "x salary" }
+      ],
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "close",
+      "source": "",
+      "type": "text_card",
+      "in_seconds": 26,
+      "out_seconds": 30,
+      "text": "Your 20s decide your 60s. Start today.",
+      "color": "#1F2937",
+      "backgroundColor": "#FFFFFF"
+    }
+  ],
+  "overlays": [
+    {
+      "type": "section_title",
+      "in_seconds": 4.3,
+      "out_seconds": 7,
+      "text": "Rule 1",
+      "subtitle": "Cash cushion first",
+      "accentColor": "#2563EB"
+    },
+    {
+      "type": "stat_reveal",
+      "in_seconds": 17,
+      "out_seconds": 19.5,
+      "text": "2.3x",
+      "subtitle": "more by starting 10 years earlier",
+      "accentColor": "#10B981",
+      "position": "bottom-right"
+    }
+  ],
+  "captions": [],
+  "audio": {}
+}
