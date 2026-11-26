@@ -14,7 +14,8 @@ The owner uses free tools only. Generation runs on this PC's RTX 5070 Ti, one GP
 - Video: `ltx23_comfyui` (LTX-2.3, text- and image-to-video, native audio, ~45 s per 5 s clip). Needs `ai-mode media` (ComfyUI on 127.0.0.1:8188). Shorts size 704x1280; `upscale: true` for 2K.
 - Images: `colibri_image` (Qwen-Image-2.1, ~25 s at 768x512, 20 steps). Needs `ai-mode image`, which stops ComfyUI.
 - Order of work: make all stills first (`ai-mode image`), then switch to `ai-mode media` for clips. Run `ai-mode stop` when done.
-- Voice: Piper (local). Music: pixabay_music. Text on screen: Remotion/HyperFrames, never baked into LTX clips.
+- Runtime: the owner chose **HyperFrames as the default for Shorts** (2026-11-26). Still mention Remotion at proposal as the alternative (AGENT_GUIDE hard rule), but recommend HyperFrames. `video_compose`'s HyperFrames auto-scaffold only carries the clips; author titles, captions and audio in `projects/<id>/hyperframes/index.html` (working example: `projects/pay-yourself-first-test/artifacts/build_hyperframes.py`), then pass `hyperframes check` before rendering.
+- Voice: `edge_tts_ava` (Ava, the owner's channel voice) with word timings for captions; Piper is the offline fallback. Music: pixabay_music. Text on screen: Remotion/HyperFrames, never baked into LTX clips.
 - No paid API keys are set in `.env`. Ask the owner before adding one or choosing any paid provider.
 - LTX can invent people or objects in moving backgrounds: check every clip's frames before using it.
 - `ai-mode` lives at `D:\FWL\01_AI_WORKSPACE\OmniRoute\ai-mode.ps1`.
